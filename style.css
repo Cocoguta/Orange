@@ -41,7 +41,7 @@
     background-color: transparent;
     outline: 1px solid white;
     border: none;
-    }
+}
 
 .searchbar {
     position: absolute;
@@ -112,7 +112,6 @@ h2 {
     background-color: #12C757;
     border: none;
     color: white;
-
 }
 
 .read-more:hover {
@@ -135,13 +134,141 @@ h2 {
     border-radius: 24px;
     margin-right: -15rem;
     border: none;
-
 }
 
 .recipes:hover {
     background-color: #478AC9;
     color: white;
 }
+
+
+/* Media query */
+
+@media screen and (max-width: 770px) {
+    .section-1 { 
+        height: 1250px;
+    }
+
+    .btn {
+        width: 80%;
+        padding-top: 8rem;
+
+    }
+
+    .searchbar {
+        margin-left: -4rem;
+    }
+
+
+
+    h2 {
+        margin-top: 8rem;
+        font-size: 65px;
+        margin-right: 2rem;
+        margin-left: 12rem;
+        /* margin-bottom: 4.3rem; */
+    }
+
+    .p-1 {
+        font-size: 18px;
+        width: 75%;
+        margin-top: 35px;
+        margin-right: 6rem;
+        padding-left: 6.5rem;
+
+    }
+
+    .read-more {
+        width: 40%;
+        text-align: center;
+        padding: 10px 30px;
+        border-radius: 24px;
+        margin-left: 0rem;
+
+    }
+
+    .recipes {
+        width: 40%;
+        text-align: center;
+        padding: 10px 30px;
+        border-radius: 24px;
+
+    }
+
+    .natural-food {
+        margin-left: 0rem;
+        width: 100%;
+        margin-top: 44rem;
+    }
+
+}
+
+@media screen and (max-width: 452px) {
+    .section-1 { 
+        height: 1300px;
+        background-position: center;
+        background-size: cover;
+        /* width: 580px; */
+    
+    }
+
+    .btn {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        padding-top: 12rem;
+
+    }
+
+    .searchbar {
+        margin-left: -4rem;
+    }
+
+
+
+    h2 {
+        margin-top: 8rem;
+        font-size: 65px;
+        margin-left: 1rem;
+        /* margin-bottom: 4.3rem; */
+    }
+
+    .p-1 {
+        font-size: 18px;
+        width: 50%;
+        margin-top: 35px;
+        /* margin-right: 14rem; */
+        padding-left: 0rem;
+        /* padding-right: -4rem; */
+
+
+    }
+
+    .read-more {
+        width: 60%;
+        text-align: center;
+        padding: 10px 30px;
+        border-radius: 24px;
+        margin-left: 0rem;
+
+    }
+
+    .recipes {
+        width: 60%;
+        text-align: center;
+        padding: 10px 30px;
+        border-radius: 24px;
+
+    }
+
+    .natural-food {
+        margin-left: 0rem;
+        width: 90%;
+        margin-top: 46rem;
+    }
+
+}
+
 
 /* SECTION-2 */
 
@@ -183,7 +310,8 @@ h5 {
 .plate-1 {
     display: flex;
     flex-direction: row;
-    padding: 0px 0px 0px 105px;
+    justify-content: space-evenly;
+    padding: 0px 0px 0px 125px;
     margin-top: 4rem;
     margin-bottom: 2rem;
 }
@@ -191,38 +319,134 @@ h5 {
 .plate-2 {
     display: flex;
     flex-direction: row;
-    padding: 0px 0px 0px 105px;
+    justify-content: space-evenly;
+    padding: 0px 0px 0px 125px;
     margin-top: 4rem;
     margin-bottom: 5rem;
 }
 
-.menu-1 {
-    display: flex;
-
-}
-
-.menu-2 {
-    display: flex;
-
-}
-
-.menu-3 {
-    display: flex;
-
-}
-
+.menu-1,
+.menu-2,
+.menu-3,
 .menu-4 {
     display: flex;
 }
-
-
-
-
 
 .lone-p {
     padding-bottom: 4rem;
     font-size: 19px;
 }
+
+/* Media query */
+
+@media screen and (max-width: 770px) {
+    .plate-1 img {
+        width: 69%;
+        height: 70%;
+        
+    }
+
+    .plate-2 img {
+        width: 69%;
+        height: 70%;
+        
+    }
+
+    .plate-1 {
+      padding: 0px 0px 0px 15px; 
+      justify-content: center;
+        
+    }
+
+    .plate-2 {
+        padding: 0px 0px 0px 15px;
+        justify-content: center;
+        margin-top: -4rem;
+        margin-bottom: 0rem;
+        
+    }
+
+    .lone-p {
+        padding-bottom: 12rem;
+        font-size: 19px;
+    }
+
+    .menu-name {
+        width: 80%;
+       
+    }
+
+    .price {
+        font-size: 26px;
+        font-weight: 700;
+    }
+
+    .menupara {
+        font-size: 15px;
+        padding-top: 20px;
+      
+    }
+
+    h5 {
+        font-size: 20px;
+        padding-top: 0px;
+    }
+
+    .section-2 
+    /* trouble with space */
+    {
+        height: 0%;
+        margin-bottom: -10rem;
+    }
+}
+
+
+@media screen and (max-width: 452px) {
+    .section-2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .plate-1 {
+        display: flex;
+        flex-direction: column;
+        padding: 0px 0px 0px 105px;
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+    }
+
+    .plate-2 {
+        display: flex;
+        flex-direction: column;
+        padding: 0px 0px 0px 105px;
+        margin-top: 4rem;
+        margin-bottom: 5rem;
+    }
+
+    .menu-1,
+    .menu-2,
+    .menu-3,
+    .menu-4 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .plate-1 img {
+        width: 50%;
+       
+    }
+
+    .plate-2 img {
+        width: 50%;
+    }
+
+    .menu-name {
+        width: 50%;
+    }
+
+}
+
+
 
 /* SECTION-3 */
 
@@ -274,6 +498,42 @@ h5 {
     padding-left: 9.2rem;
 }
 
+/* Media query */
+
+@media screen and (max-width: 770px) {
+
+    .section-3 {
+        background-size: 45% 100%;
+    }
+
+    .section3header {
+        font-size: 75px;
+        margin-bottom: 2rem;
+        margin-left: 4rem;
+
+    }
+
+    .section3para {
+        padding-left: 2rem;
+        padding-bottom: 5rem;
+        width: 70%;
+    }
+
+    .h3p {
+        width: 70%;
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+    }
+
+    .sec3btn {
+        padding-left: 7.2rem;
+
+    }
+}
+
+@media screen and (max-width: 452px) {}
+
+
 /* SECTION-4 */
 
 .section-4 {
@@ -296,8 +556,6 @@ h5 {
     display: inline-block;
     border-radius: 50%;
     background-color: rgba(149, 147, 147, 0.5);
-
-
 }
 
 .tiny {
@@ -327,8 +585,51 @@ h5 {
 .sec4btn {
     margin-bottom: 3rem;
     padding-left: 37rem;
-
 }
+
+/* Media query */
+
+@media screen and (max-width: 770px) {
+    .sec4para {
+        font-size: 18px;
+    }
+
+    .header4 {
+        font-size: 65px;
+
+    }
+
+    .slider {
+
+        margin-left: 7rem;
+        margin-right: 7rem;
+        padding-bottom: 5rem;
+    }
+
+    
+
+    .x {
+        width: 220px;
+        height: 300px;
+        margin-left: 1rem;
+    }
+
+    .tiny {
+        margin-left: 23.5rem;
+        margin-bottom: 3rem;
+        margin-top: -4rem;
+    }
+
+
+    .sec4btn {
+        margin-bottom: 3rem;
+        padding-left: 10rem;
+        margin-left: 8rem;
+    }
+    
+}
+
+@media screen and (max-width: 452px) {}
 
 /* SECTION-5 */
 
@@ -381,6 +682,46 @@ h5 {
     padding-bottom: 1rem;
 }
 
+/* Media query */
+
+@media screen and (max-width: 770px) {
+    .pineflex img {
+        padding-right: 0.3rem;
+        padding-top: 9rem;
+        height: 90%;
+        width: 60%;
+      
+    }
+
+    .header5 {
+        font-size: 55px;
+        width: 135%;
+        padding-left: 2.2rem;
+        padding-top: 4rem;
+        padding-bottom: 2rem;
+        /* z-index: 2; why isn't it working? */
+        
+    }
+
+    .sec5para {
+        padding-left: 2.2rem;
+        padding-bottom: 1rem;
+        width: 100%;
+    
+    }
+
+
+    .sec5btn {
+        padding-left: 2.2rem;
+        padding-top: -2rem;
+        padding-bottom: 2.5rem;
+       
+    }
+
+}
+
+@media screen and (max-width: 452px) {}
+
 
 /* SECTION-6 */
 
@@ -416,8 +757,6 @@ h3 {
     font-size: 20px;
     font-family: Arial, Helvetica, 'sans-serif';
     text-transform: uppercase;
-
-
 }
 
 .sec6para {
@@ -460,8 +799,6 @@ h3 {
     position: relative;
     bottom: 18rem;
     left: 4rem;
-
-
 }
 
 .percent {
@@ -483,6 +820,71 @@ h3 {
     display: inline-block;
     margin-left: 4rem;
 }
+
+/* media query */
+
+@media screen and (max-width: 770px) {
+    .dot {
+        width: 200px;
+        height: 200px;
+        margin-left: 2rem;
+    }
+
+    .percent {
+        font-size: 52px;
+        margin-top: 1.8rem;
+        width: 50%;   
+        right: 4.5rem; 
+    }
+
+    .fresh-food {
+        margin-bottom: 2rem;
+        margin-left: -1rem;
+    }
+
+    .fresh-food img {
+        width: 40%;
+        height: 30%;
+        margin-left: 5rem;
+    }
+    
+    
+    .h6p {
+        padding-left: 4rem;
+        padding-top: -3rem;
+    }
+
+    .sec6para {
+        width: 100%;
+    
+    }
+    
+    .para-6a {
+        padding-top: 2rem;
+    }
+    
+    
+    .veggie img {
+        width: 95%;
+        height: 190%; 
+        /* can't increase height. Why?  */
+        margin-top: -13rem;
+    }
+    
+    .discount {
+        bottom: 18rem;
+        left: 2rem;
+    }
+    
+}
+
+
+@media screen and (max-width: 452px) {
+
+}
+
+
+/* SECTION 7 */
 
 .section-7 {
     background-image: url(./images/3351014.jpg);
@@ -535,6 +937,42 @@ h3 {
     padding-left: 3rem;
     padding-top: 3rem;
 }
+
+/* media query */
+
+@media screen and (max-width: 770px) {
+    .sec-7 {
+        padding-top: 5rem;
+    }
+  
+    .header7 {
+        font-family: Arial, Helvetica, 'sans-serif';
+        font-size: 69px;
+        width: 50%;
+        margin-left: 13rem;
+        /* padding-top: 3rem; */
+    }
+    
+    .para-7 {
+        width: 60%;
+        margin-left: 11rem;
+        
+    }
+
+    .para-7a {
+        padding-left: 2rem;
+    }
+
+    .sec7btn {
+        padding-bottom: 3rem;
+    }
+}
+
+@media screen and (max-width: 452px) {
+
+}
+
+/* SECTION 8 */
 
 .section-8 {
     background-color: var(--secondary-color);
@@ -593,7 +1031,7 @@ h3 {
 }
 
 .subscribe:hover {
-   color: black;
+    color: black;
     background-color: transparent;
 }
 
@@ -626,7 +1064,46 @@ input[type="email"] {
     color: black;
 }
 
-footer{
+/* media query */
+
+@media screen and (max-width: 770px) {
+    .header8 {
+        font-size: 60px;
+        margin-left: 2.5rem;
+        width: 80%;
+        text-align: center;
+    }
+    
+    .sec8para {
+        width: 95%;
+        margin-left: 0rem;
+       
+    }
+
+    input[type="email"] {
+        margin-left: 12rem;
+        width: 50%;
+    }
+
+    .subscribe { 
+        margin-left: 12rem;
+        width: 50%;
+
+    }
+
+    .section-8 {
+        height: 510px;
+    }
+}
+
+@media screen and (max-width: 452px) {
+
+}
+
+
+/* FOOTER */
+
+footer {
     background-color: #333333;
     height: 230px;
     text-align: center;
@@ -634,7 +1111,7 @@ footer{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.footer-p{
+.footer-p {
     font-size: 15px;
     padding-top: 3rem;
     padding-bottom: 4rem;
@@ -643,10 +1120,27 @@ footer{
 }
 
 .footerbtn {
-color:white;
-font-size: 14px;
+    color: white;
+    font-size: 14px;
 }
 
 .link {
     color: #ADCCE9;
+}
+
+/* media query */
+
+@media screen and (max-width: 770px) {
+    .footer-p {
+        font-size: 15px;
+        padding-top: 3rem;
+        padding-bottom: 4rem;
+        width: 60%;
+        margin-left: 10rem;
+    }
+    
+}
+
+@media screen and (max-width: 452px) {
+
 }

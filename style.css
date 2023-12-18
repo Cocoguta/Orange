@@ -146,7 +146,7 @@ h2 {
 /* Media query */
 
 @media screen and (max-width: 770px) {
-    .section-1 { 
+    .section-1 {
         height: 1250px;
     }
 
@@ -205,7 +205,7 @@ h2 {
 }
 
 @media screen and (max-width: 430px) {
-    .section-1 { 
+    .section-1 {
         height: 1300px;
     }
 
@@ -214,7 +214,7 @@ h2 {
         flex-direction: column;
         width: 60%;
         padding-top: 8rem;
-      
+
 
     }
 
@@ -338,19 +338,19 @@ h5 {
     .plate-1 img {
         width: 69%;
         height: 70%;
-        
+
     }
 
     .plate-2 img {
         width: 69%;
         height: 70%;
-        
+
     }
 
     .plate-1 {
-      padding: 0px 0px 0px 15px; 
-      justify-content: center;
-        
+        padding: 0px 0px 0px 15px;
+        justify-content: center;
+
     }
 
     .plate-2 {
@@ -358,7 +358,7 @@ h5 {
         justify-content: center;
         margin-top: -4rem;
         margin-bottom: 0rem;
-        
+
     }
 
     .lone-p {
@@ -368,7 +368,7 @@ h5 {
 
     .menu-name {
         width: 80%;
-       
+
     }
 
     .price {
@@ -379,7 +379,7 @@ h5 {
     .menupara {
         font-size: 15px;
         padding-top: 20px;
-      
+
     }
 
     h5 {
@@ -387,9 +387,10 @@ h5 {
         padding-top: 0px;
     }
 
-    .section-2 
+    .section-2
+
     /* trouble with space */
-    {
+        {
         height: 0%;
         margin-bottom: -10rem;
     }
@@ -402,14 +403,14 @@ h5 {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: auto; 
+        width: auto;
     }
 
-   
+
 
     .plate-1 {
         display: flex;
-        flex-direction: column;   
+        flex-direction: column;
         margin-top: 2rem;
     }
 
@@ -418,7 +419,7 @@ h5 {
         flex-direction: column;
         margin-top: 0rem;
         margin-bottom: 0.5rem;
-        
+
     }
 
     .menu-1,
@@ -441,7 +442,7 @@ h5 {
 
     .plate-1 img {
         width: 70%;
-       
+
     }
 
     .plate-2 img {
@@ -541,7 +542,41 @@ h5 {
     }
 }
 
-@media screen and (max-width: 452px) {}
+@media screen and (max-width: 430px) {
+    .section-3 {
+        background-size: 50% 100%;
+        margin-top: -2rem;
+        min-height: 50vh;
+    }
+
+    .section3header {
+        font-size: 55px;
+        margin-bottom: 2rem;
+        margin-left: 1rem;
+        margin-top: -0.5rem;
+    }
+
+    .section3para {
+        padding-left: 2rem;
+        padding-bottom: 2rem;
+        width: 70%;
+
+    }
+
+    .h3p {
+        width: 70%;
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+    }
+
+    .sec3btn {
+        margin-right: 1rem;
+        margin-left: -3rem;
+        width: 95%;
+      
+    }
+
+}
 
 
 /* SECTION-4 */
@@ -610,13 +645,11 @@ h5 {
     }
 
     .slider {
-
         margin-left: 7rem;
         margin-right: 7rem;
         padding-bottom: 5rem;
     }
 
-    
 
     .x {
         width: 220px;
@@ -636,10 +669,50 @@ h5 {
         padding-left: 10rem;
         margin-left: 8rem;
     }
-    
+
 }
 
-@media screen and (max-width: 452px) {}
+@media screen and (max-width: 430px) {
+
+    .slider {
+        padding-top: 2rem;
+
+    }
+
+    .knife {
+        width: 0%;
+        height: 0%;
+    }
+
+    .vegetable {
+        width: 0%;
+        height: 0%;
+    }
+
+    .tiny {
+        margin-left: 13rem;
+    }
+
+    .header4 {
+        font-size: 45px;
+    }
+
+    .sec4para {
+        width: auto;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        margin-top: 1rem;
+    }
+
+    .sec4btn {
+        margin-bottom: 2rem;
+        margin-left: 0rem;
+        margin-right: 1rem;
+        padding-right: 2rem;
+        width: auto;
+    }
+
+}
 
 /* SECTION-5 */
 
@@ -700,7 +773,7 @@ h5 {
         padding-top: 9rem;
         height: 90%;
         width: 60%;
-      
+
     }
 
     .header5 {
@@ -710,14 +783,14 @@ h5 {
         padding-top: 4rem;
         padding-bottom: 2rem;
         /* z-index: 2; why isn't it working? */
-        
+
     }
 
     .sec5para {
         padding-left: 2.2rem;
         padding-bottom: 1rem;
         width: 100%;
-    
+
     }
 
 
@@ -725,12 +798,59 @@ h5 {
         padding-left: 2.2rem;
         padding-top: -2rem;
         padding-bottom: 2.5rem;
-       
+
     }
 
 }
 
-@media screen and (max-width: 452px) {}
+@media screen and (max-width: 430px) {
+    .section-5 {
+        position: relative;
+        min-height: 300vh;
+    }
+
+
+    .sec5btn {
+        width: 50%;
+        padding-left: 0rem;
+        margin-left: 9.5rem;
+        position: absolute;
+        top: 46rem;
+
+    }
+
+    .pineflex {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .sec5para {
+        position: absolute;
+        left: 1rem;
+        bottom: 1rem;
+        width: 90%;
+        top: 30rem;
+
+    }
+
+    .pineflex img {
+        right: 1rem;
+        top: -2rem;
+        height: 55%;
+        width: 90%;
+        position: absolute;
+
+    }
+
+    .header5 {
+        font-size: 50px;
+        width: 90%;
+        padding-left: 2.8rem;
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+    }
+
+}
 
 
 /* SECTION-6 */
@@ -738,7 +858,6 @@ h5 {
 .fresh-food {
     margin-bottom: 10rem;
     margin-left: 20%;
-
 }
 
 .flex-6 {
@@ -747,7 +866,6 @@ h5 {
     align-items: left;
     justify-content: left;
     height: 100%;
-
 }
 
 .sec-6 {
@@ -756,7 +874,6 @@ h5 {
     align-items: center;
     justify-content: left;
 }
-
 
 .h6p {
     padding-left: 10rem;
@@ -773,7 +890,6 @@ h3 {
     font-size: 20px;
     color: rgba(149, 147, 147, 0.5);
     width: 102%;
-
 }
 
 .para-6a {
@@ -818,7 +934,6 @@ h3 {
     color: white;
     margin-top: 1.8rem;
     width: 20%;
-
 }
 
 .dot {
@@ -843,8 +958,8 @@ h3 {
     .percent {
         font-size: 52px;
         margin-top: 1.8rem;
-        width: 50%;   
-        right: 4.5rem; 
+        width: 50%;
+        right: 4.5rem;
     }
 
     .fresh-food {
@@ -857,8 +972,8 @@ h3 {
         height: 30%;
         margin-left: 5rem;
     }
-    
-    
+
+
     .h6p {
         padding-left: 4rem;
         padding-top: -3rem;
@@ -866,30 +981,101 @@ h3 {
 
     .sec6para {
         width: 100%;
-    
+
     }
-    
+
     .para-6a {
         padding-top: 2rem;
     }
-    
-    
+
+
     .veggie img {
         width: 95%;
-        height: 190%; 
+        height: 190%;
         /* can't increase height. Why?  */
         margin-top: -13rem;
     }
-    
+
     .discount {
         bottom: 18rem;
         left: 2rem;
     }
-    
+
 }
 
 
-@media screen and (max-width: 452px) {
+@media screen and (max-width: 430px) {
+
+    .section-6{
+        min-height: 100vh;
+    }
+
+
+    .flex-6 {
+        height: 100vh;
+    }
+
+
+    .sec-6 {
+        min-height: 100vh;
+    }
+
+    .dot {
+        width: 140px;
+        height: 140px;
+        margin-left: 2rem;
+    }
+
+    .percent {
+        font-size: 40px;
+        margin-top: 0.9rem;
+        width: 50%;
+        right: 0rem;
+    }
+
+    .h6p h3 {
+        margin-top: -6rem;
+        width: 150%;
+        padding-bottom: 1rem;
+
+    }
+
+    .fresh-food {
+        margin-bottom: 2rem;
+        margin-left: -1rem;
+         margin-top: -7rem;
+    }
+
+    .fresh-food img {
+        width: 60%;
+        height: 100%;
+        margin-left: 4rem;
+       
+    }
+
+    .sec6para {
+        width: 150%;
+    }
+
+
+    .para-6a {
+        padding-top: 2rem;
+        width: 150%;
+    }
+
+
+    .veggie img {
+        width: 15rem;
+        height: 33rem;
+        margin-top: 0rem;
+    }
+
+    .discount {
+        top: -18rem;
+        bottom: 3rem;
+        left: 0rem;
+    }
+
 
 }
 
@@ -954,7 +1140,7 @@ h3 {
     .sec-7 {
         padding-top: 5rem;
     }
-  
+
     .header7 {
         font-family: Arial, Helvetica, 'sans-serif';
         font-size: 69px;
@@ -962,11 +1148,11 @@ h3 {
         margin-left: 13rem;
         /* padding-top: 3rem; */
     }
-    
+
     .para-7 {
         width: 60%;
         margin-left: 11rem;
-        
+
     }
 
     .para-7a {
@@ -978,7 +1164,52 @@ h3 {
     }
 }
 
-@media screen and (max-width: 452px) {
+@media screen and (max-width: 430px) {
+
+    .section-7 {
+        background-size: 150%;
+        min-height: 100vh;
+        position: relative;
+        margin-top: 2rem;
+        
+
+    }
+
+    .sec-7 {
+        width: 100%;
+        text-align: center;
+        margin-top: 2rem;
+        position: absolute;
+    }
+
+    .header7 {
+        font-size: 30px;
+        width: 35%;
+        margin-left: 10rem;
+        margin-top: -5rem;
+    }
+
+    .para-7 {
+        width: 80%;
+        font-size: 16px;
+        margin-left: 4rem;
+        padding-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .para-7a {
+        padding-top: 2rem;
+        margin-top: -2rem;
+        font-size: 16px;
+    }
+
+    .sec7btn {
+        padding-left: 3rem;
+        padding-top: 2rem;
+        width: 60%;
+        margin-left: 6rem;
+        margin-bottom: 1rem;
+    }
 
 }
 
@@ -1083,11 +1314,11 @@ input[type="email"] {
         width: 80%;
         text-align: center;
     }
-    
+
     .sec8para {
         width: 95%;
         margin-left: 0rem;
-       
+
     }
 
     input[type="email"] {
@@ -1095,7 +1326,7 @@ input[type="email"] {
         width: 50%;
     }
 
-    .subscribe { 
+    .subscribe {
         margin-left: 12rem;
         width: 50%;
 
@@ -1106,9 +1337,45 @@ input[type="email"] {
     }
 }
 
-@media screen and (max-width: 452px) {
+@media screen and (max-width: 430px) {
 
+    .section-8 {
+        min-height: 100vh;
+        margin-top: 5rem;
+    }
+
+
+    .header8 {
+        font-size: 45px;
+        margin-left: 2rem;
+        width: 90%;
+        margin-top: -2rem;
+        text-align: center;
+    }
+
+    .sec8para {
+    margin-left: 0rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    padding-bottom: 1rem;
+    width: 95%;
+
+    }
+
+    .subscribe {
+        width: 53%;
+        margin-left: 6rem;
+        margin-bottom: 5rem;
+       
+    }
+     
+    input[type="email"] {
+        margin-left: 6.5rem;
+        text-align: left;
+    }
+   
 }
+
 
 
 /* FOOTER */
@@ -1148,9 +1415,16 @@ footer {
         width: 60%;
         margin-left: 10rem;
     }
-    
+
 }
 
-@media screen and (max-width: 452px) {
+@media screen and (max-width: 430px) {
+    .footer-p {
+        font-size: 15px;
+        padding-top: 3rem;
+        padding-bottom: 4rem;
+        width: 70%;
+        margin-left: 4rem;
+    }
 
 }
